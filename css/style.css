@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto';
+  line-height: 1;
+  font-family: 'Shantell Sans', cursive;
+
+}
+
+body {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section .container {
+    text-align: center;
+    margin: 0 auto;
+  min-width: 300px;
+  border-radius: 12px;
+  background-color: #f4f4f4;
+  box-shadow: 0 10px 40px #0000001f;
+}
+
+.month-year {
+    padding: 2rem 2rem 0 2rem;
+    border-radius: 12px 12px 0 0;
+    color: #fff;
+    background-color: #ff4848;
+}
+.month-year h2{
+    padding-bottom: 1rem;
+    font-size: 52px;
+}
+.month-year p{
+    padding-bottom: 1rem;
+    font-size: 32px;
+}
+
+.date p{
+    margin: 2rem 0;
+    font-weight: 600;
+    font-size: 100px;
+}
+
+.week-day p{
+    text-transform: uppercase;
+    font-size: 28px;
+    font-weight: 600;
+    padding-bottom: 1.5rem;
+}
